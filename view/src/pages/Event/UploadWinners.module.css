@@ -1,0 +1,101 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin-bottom: 0;
+}
+
+.image-preview {
+  display: block;
+  max-width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* .span-all-rows {
+    width: 100%;
+  } */
+
+/* .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:disabled {
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+   */

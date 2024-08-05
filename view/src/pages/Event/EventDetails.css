@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  color: rgb(26 12 64);
+}
+
+.cover {
+  height: 300px;
+  width: 100%;
+  background-image: url(https://githubhackathon.com/assets/static/social.2665e34.bbbc471aa09ae41041a26fdad9256548.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 30px;
+}
+
+.main {
+  height: max-content;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+/* Details Section*/
+.name {
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.name span {
+  font-weight: bolder;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #601f7e;
+}
+.register {
+  margin-top: 20px;
+  background-color: #44259c;
+  color: white;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Timer Section */
+
+.date {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.time-left {
+  font-size: 80px;
+}
+.time-left span {
+  background-color: #8c80dd;
+}
+
+.timer {
+  padding: 30px;
+  background-color: #d9d9fe;
+  height: 340px;
+  width: 480px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.time-title {
+  transform: translateX(-30px);
+  font-size: 20px;
+  width: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Event */
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 515px;
+
+  background-color: rgba(26, 12, 64, 0.7);
+}
+.event-child {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 90%;
+  height: 375px;
+
+  background-color: white;
+  border-radius: 20px;
+}
+.event-child h1 {
+  position: absolute;
+  top: 0;
+  align-self: center;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.event-card {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  background-color: #efefff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.event-card img {
+  height: 44px;
+  width: 44px;
+}
+
+.event-card-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.event-card-detail {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.contact {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.winner-title {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.winners {
+  height: 70vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.winners img {
+  aspect-ratio: 3/2;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  height: auto;
+  transition: all 0.5s;
+}
+.winners img:hover {
+  transform: scale(1.05);
+}
+
+.winners p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  width: 450px;
+}
+.winner-position {
+  margin: 10px 0px 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.winner-description {
+  font-size: 16px;
+  font-weight: normal;
+}
