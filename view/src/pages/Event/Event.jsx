@@ -46,7 +46,7 @@ function Event() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://backend-3-m2mb.onrender.com/api/v1/events"
+        "https://backend-d62d.onrender.com/api/v1/events"
       );
       setEvents(response.data.data.events);
       setIsLoading(false);
