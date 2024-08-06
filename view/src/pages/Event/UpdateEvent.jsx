@@ -26,7 +26,7 @@ function EventForm() {
     const getEvent = async () => {
       try {
         const response = await axios.get(
-          `https://backend-3-m2mb.onrender.com/api/v1/events/${eventId}`
+          `https://backend-d62d.onrender.com/api/v1/events/${eventId}`
         );
         setEventData(response.data.data.event);
         console.log("Before Update fetched Data :", response.data.data.event);
